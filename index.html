@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Кіносвіт</h1>
+        <nav>
+            <a href="#about">Про нас</a>
+            <a href="#movies">Фільми</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+        <button onclick="toggleTheme()">Змінити тему</button>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Про нас</h2>
+            <p id="content">Ми захоплені світом кіно і хочемо поділитися з вами найкращими фільмами.</p>
+        </section>
+        <section id="movies">
+            <h2>Популярні фільми</h2>
+            <ul>
+                <li>Інтерстеллар</li>
+                <li>Темний лицар</li>
+                <li>Початок</li>
+                <li>Володар перснів</li>
+                <li>Матриця</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться з нами через email: kino@world.org</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Кіносвіт</p>
+        <button onclick="toggleContrast()">Змінити контраст</button>
+        <button onclick="toggleTextSize()">Збільшити шрифт</button>
+        <button onclick="speakText()">Озвучити текст</button>
+    </footer>
+
+    <script src="./program.js"></script>
+</body>
+</html>
